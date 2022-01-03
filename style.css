@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+body{
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+   
+    
+   
+   
+}
+ul{
+    list-style-type: none;
+    float: inline-start;
+    background-color: darkkhaki;
+    text-align: center;
+    
+    
+    
+}
+ul li{
+    display: inline-block;
+    margin-top: 20px;
+   
+   
+}
+ul li.active a{
+    background-color: #fff;
+    color: black;
+  
+   
+   
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.8s ease;
+    margin-left: 50px;
+    
+   
+  
+}
+ul li a:hover{
+    background-color: #fff;
+    color: black;
+    
+    
+}
+.img1{
+    width:100%;
+    height: 130px;
+    background-color: brown;
+}
+
+
+.social-items{
+    list-style: none;
+}
+.social-items a{
+    padding: 10px 20px;
+    font-size: 35px;
+    color: #6cccc6;
+    transition: all .25s;
+}
+.social-items a:hover{
+    color: black;
+    transition: all .25s;
+}
+.carousel{
+    height: 450px;
+    margin-left: 200px
+   
+
+}
+
+.carousel .carousel-item{
+  width: 300px;
+  margin-left: -350px;
+ 
+    
+}
+
+.subtitlu{
+ font-size: 20px;
+    margin-top: 150px;
+    margin-left: 830px;
+    color: red;
+   
+}
+.btnn{
+    background: #f90000;
+    color: #fff;
+    text-decoration: none;
+    border: 5px solid transparent;
+    font-weight: bold;
+    padding: 20px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    margin-left: 800px;
+    cursor: pointer;
+}
+.btnn:hover{
+    background: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+.home-edit h1{
+    text-align: center;
+    color: red;
+    font-size: 36px;
+    font-weight: bold;
+
+}
+.home-edit h2{
+    text-align: center;
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+}
+.home-edit p{
+    margin-left: 60px;
+    font-size: 16px;
+    text-align: center;
+}
+.textt{
+  width: 500px;
+  height: auto;
+ margin-left: 300px;
+  
+}
+.lupa{
+    padding-top: 100px;
+    width: 700px;
+   height: 200px;
+   block-size: auto;
+    margin-left: 300px;
+    margin-top: -70px; 
+}
+b.bio{
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;  
+    font-size: 28px;
+    margin-bottom: 25px;
+    font-weight: 600;
+    margin-top: 25px;
+    line-height: 1.3;
+    padding-top: 100px;
+    width: 700px;
+    height: 200px;
+    block-size: auto;
+     margin-left: 300px;
+     margin-top: -70px;
+}
+.fas {
+  margin: auto;
+  color: rgb(0, 0, 0);
+}
+.film {
+    margin-left: 300px;
+    margin-top: -70px; 
+}
+.btn{
+    background: #f90000;
+    color: #fff;
+    text-decoration: none;
+    border: 5px solid transparent;
+    font-weight: bold;
+    padding: 30px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    margin-left: 300px;
+    margin-top: -70px;
+    cursor: pointer;
+    font-size: 20px;
+   
+}
+.btn:hover{
+    background: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+.titlul{
+color: red;
+text-align: center;
+font-size: 26px;
+}
+.text{
+   margin-left: 1100px;
+    color: red;
+    font-size: large;
+
+}
+.img{
+margin-left: 1100px;
+}
+.href{
+    margin-left: 1100px;
+    color: red;
+   font-weight: bold;
+   text-decoration: none;
+
+}
+
+
+.tot{
+    margin-right: 200px;
+    margin-top: -800px;
+}
+.titlu-scrisoare{
+    text-align: center;
+    width: 500px;
+    height: auto;
+     margin-left: 300px;
+     color: red;
+     font-size: 36px;
+     font-weight: bold;
+     margin-top: 50px;
+     font-family: 'NK153', sans-serif;
+   
+}
+.title{
+    margin-left: 300px;
+    color: rgb(255, 0, 0);
+    font-size: large;
+}
+.scrisoare{
+    height: 700px;
+    width: 580px;
+    margin-left: 300px;
+}
+.filmm{
+    margin-left: 280px;
+    margin-top: -70px; 
+}
+.hreff{
+    color: red;
+    text-decoration: none;
+   
+}
+span{
+    color: rgb(107, 74, 74);
+}
+.wrapper{
+    width: 800px;
+    margin: 5% auto;
+}
+.form-area{
+    display: flex;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 25px;
+    padding: 1.9em;
+}
+.msg-area > textarea{
+    flex: 1;
+    min-width: 18em;
+    background: transparent;
+    color: #fff;
+    padding: 15px;
+}
+.details-area{
+    flex: 1;
+    order: 1;
+    margin-right: 2em;
+
+}
+.details-area input{
+    width: 100%;
+    background: transparent;
+    color: #fff;
+    border-radius: 40px;
+}
+.details-area input,
+.details-area button{
+    padding: 1em;
+    margin-bottom: 1em;
+}
+.details-area button{
+    background: tomato;
+    color: #fff;
+    border: 0;
+    padding: 15px 50px;
+    border-radius: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .4s;
+}
+button:hover{
+    background: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+.details-area{
+    color: #fff;
+    font-weight: bold;
+}
+.form-area{
+    color: #fff;
+    font-weight: bold;
+}
+
+/*-------------------footer*/
+.footer{
+    padding: 40px 0;
+    background-color: #fff;
+}
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: #4b4c4d;
+}
+.footer .social a{
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+.footer .social a:hover {
+    opacity: 0.9;
+}
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+.footer ul li a{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+.footer ul li {
+    display: inline-block;
+    padding: 0 15;
+}
+.footer ul li a:hover{
+    opacity: 1;
+}
+.footer .coopyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+}
